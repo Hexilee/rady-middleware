@@ -26,7 +26,7 @@ type (
 		ContextKey    *string `value:"rady.jwt.context_key"`
 		SigningMethod *string `value:"rady.jwt.signing_method"`
 		AuthScheme    *string `value:"rady.jwt.auth_scheme"`
-		Skipper       *string `value:"rady.middleware.logger.skipper" default:"GetLoggerSkipper"`
+		Skipper       *string `value:"rady.middleware.logger.skipper" default:"GetJWTSkipper"`
 		Claims        *string `value:"rady.jwt.claims" default:"GetJWTClaims"`
 	}
 )
